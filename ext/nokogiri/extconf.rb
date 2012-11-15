@@ -64,10 +64,8 @@ else
 
   LIB_DIRS = [
     # First search /opt/local for macports
-    '/opt/local/lib',
 
     # Then search /usr/local for people that installed from source
-    '/usr/local/lib',
 
     # Check the ruby install locations
     LIBDIR,
